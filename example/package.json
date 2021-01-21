@@ -12,7 +12,12 @@
     "@storybook/html": "^6.1.14",
     "babel-loader": "^8.2.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
